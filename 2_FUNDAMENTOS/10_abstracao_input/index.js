@@ -9,4 +9,4 @@ inquirer.prompt([{
 }]).then((answers) => {
     const media = ((parseInt(answers.p1) + parseInt(answers.p2))/2)
     console.log(`a média é: ${media}`)
-}).catch(err => console.log)
+}).catch(err => console.log(err))
